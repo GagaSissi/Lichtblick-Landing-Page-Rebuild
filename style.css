@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: "Lato", sans-serif;
+}
+
+/* svg {
+  width: 20%;
+  height: auto;
+  display: block;
+} */
+
+svg {
+  display: block;
+  width: 100%;
+  max-width: 7rem;
+  line-height: 0;
+}
+
+.banner {
+  display: flex;
+  width: 663px;
+  height: 442px;
+}
+
+main {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+.Box-1 {
+  margin-top: 10px;
+  background-color: rgb(206, 205, 205);
+  margin-bottom: 10px;
+}
+
+.Box-2 {
+  margin-top: 10px;
+  background-color: rgb(175, 115, 163);
+  margin-bottom: 10px;
+}
+
+.Box-3 {
+  margin-top: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.Box-4 {
+  margin-top: 10px;
+  background-color: rgb(113, 136, 113);
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button {
+  border: 5px solid black;
+  border-radius: 8px;
+  padding: 0.9rem;
+  text-decoration: none;
+}
+
+footer {
+  _display: block;
+  font-size: 1.6rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+_.unterpunkt-footer {
+  display: flex;
+}
